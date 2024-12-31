@@ -1,0 +1,8 @@
+<.flash_group flash={@flash} />
+<VStack class="frame:infinite" style="background(.blue);">
+	<HStack>
+		{@inner_content}
+		<Spacer />
+	</HStack>
+	<Spacer />
+</VStack>

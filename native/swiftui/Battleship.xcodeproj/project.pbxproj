@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D9C2A5D071BFBA71EE0B4FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89D3031697EF908814C65 /* ContentView.swift */; };
+		266CE4B3626D374942F033DB /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = EFE08E1E2A05752FDD9A73FF /* LiveViewNative */; };
+		26D8B217C80A5B1DE0D14075 /* ReconnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6E284738BF1AB8C0D4F3E7 /* ReconnectingView.swift */; };
+		33850E7613FAC5C0511C1069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B56A94F130C625BAF61833 /* Assets.xcassets */; };
+		3FE550E236848B91AECF9B53 /* ConnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38446A7371D0A243C52C0544 /* ConnectingView.swift */; };
+		6E2767F1000EC1EAC5DF4FF7 /* ReconnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6E284738BF1AB8C0D4F3E7 /* ReconnectingView.swift */; };
+		8A3F2DCA8FB371D57C874237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0B56A94F130C625BAF61833 /* Assets.xcassets */; };
+		91DE49CCF8C5F54E4B74D483 /* Battleship.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D216FC50F1520FFAFD0684 /* Battleship.swift */; };
+		A11911C03DCA08399B6D14FA /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FC3637524512786188E4B5 /* ErrorView.swift */; };
+		A5935D774F786B2835A8E651 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FC3637524512786188E4B5 /* ErrorView.swift */; };
+		B6452FFF961226F235D7A8C3 /* LiveViewNativeLiveForm in Frameworks */ = {isa = PBXBuildFile; productRef = C7F801211896BE17D45978BF /* LiveViewNativeLiveForm */; };
+		B68FFB6EA771914B9797B761 /* LiveViewNativeLiveForm in Frameworks */ = {isa = PBXBuildFile; productRef = 28F4C9D25A3435E9B6C06364 /* LiveViewNativeLiveForm */; };
+		B9AAFF78CCB906EDC3197004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648F8F2EA472D3DF8A8C60EE /* Preview Assets.xcassets */; };
+		CF2971296784FFD14686AA7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648F8F2EA472D3DF8A8C60EE /* Preview Assets.xcassets */; };
+		D1000869673D8A8E6A05E748 /* DisconnectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4208109D7DC3272C16C006 /* DisconnectedView.swift */; };
+		E046C1FD6CA4CF77F14EB656 /* ConnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38446A7371D0A243C52C0544 /* ConnectingView.swift */; };
+		E05559C44D1E4DBC6F857704 /* Battleship.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D216FC50F1520FFAFD0684 /* Battleship.swift */; };
+		E6FBE6FE3E314F3487A88F47 /* DisconnectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4208109D7DC3272C16C006 /* DisconnectedView.swift */; };
+		EEF82FC35FCBA63EB92B06D1 /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = 2AC1EBC4130ADB7630001363 /* LiveViewNative */; };
+		F30F16A1A80A2EA51BF16F59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB89D3031697EF908814C65 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F4208109D7DC3272C16C006 /* DisconnectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectedView.swift; sourceTree = "<group>"; };
+		2DB89D3031697EF908814C65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38446A7371D0A243C52C0544 /* ConnectingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectingView.swift; sourceTree = "<group>"; };
+		53FC3637524512786188E4B5 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		648F8F2EA472D3DF8A8C60EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0FE8FA0A735BFF25CBE24BE /* Battleship Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Battleship Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B809AE21A8030F3B28936599 /* Battleship.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Battleship.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6E284738BF1AB8C0D4F3E7 /* ReconnectingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReconnectingView.swift; sourceTree = "<group>"; };
+		C2D216FC50F1520FFAFD0684 /* Battleship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battleship.swift; sourceTree = "<group>"; };
+		F0B56A94F130C625BAF61833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA1F5312EA7120E5D0D3DC65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266CE4B3626D374942F033DB /* LiveViewNative in Frameworks */,
+				B68FFB6EA771914B9797B761 /* LiveViewNativeLiveForm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6364C2922C6818C91DD828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF82FC35FCBA63EB92B06D1 /* LiveViewNative in Frameworks */,
+				B6452FFF961226F235D7A8C3 /* LiveViewNativeLiveForm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C83B38B4CDB3796DB4CD551 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				648F8F2EA472D3DF8A8C60EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		870B6D132EC93CF7F54F4D22 = {
+			isa = PBXGroup;
+			children = (
+				9F9737C335F2CA2A0E1ECFF1 /* Battleship */,
+				E1FB6FBC8469061BAE1B972D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F9737C335F2CA2A0E1ECFF1 /* Battleship */ = {
+			isa = PBXGroup;
+			children = (
+				2C83B38B4CDB3796DB4CD551 /* Preview Content */,
+				F0B56A94F130C625BAF61833 /* Assets.xcassets */,
+				C2D216FC50F1520FFAFD0684 /* Battleship.swift */,
+				38446A7371D0A243C52C0544 /* ConnectingView.swift */,
+				2DB89D3031697EF908814C65 /* ContentView.swift */,
+				1F4208109D7DC3272C16C006 /* DisconnectedView.swift */,
+				53FC3637524512786188E4B5 /* ErrorView.swift */,
+				BD6E284738BF1AB8C0D4F3E7 /* ReconnectingView.swift */,
+			);
+			path = Battleship;
+			sourceTree = "<group>";
+		};
+		E1FB6FBC8469061BAE1B972D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0FE8FA0A735BFF25CBE24BE /* Battleship Watch App.app */,
+				B809AE21A8030F3B28936599 /* Battleship.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C488D6DEE0BB5494B60C966 /* Battleship */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB3CED499F31CE2619A529F9 /* Build configuration list for PBXNativeTarget "Battleship" */;
+			buildPhases = (
+				34796DBCD5B20A161D516C6D /* Sources */,
+				0576AE51D0041C1E286CD715 /* Resources */,
+				BA1F5312EA7120E5D0D3DC65 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Battleship;
+			packageProductDependencies = (
+				EFE08E1E2A05752FDD9A73FF /* LiveViewNative */,
+				28F4C9D25A3435E9B6C06364 /* LiveViewNativeLiveForm */,
+			);
+			productName = Battleship;
+			productReference = B809AE21A8030F3B28936599 /* Battleship.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F73E88DA5CCE529068173D90 /* Battleship Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9940113F27CC848219AF21 /* Build configuration list for PBXNativeTarget "Battleship Watch App" */;
+			buildPhases = (
+				1637121058B6136C781B3DA5 /* Sources */,
+				8E9B7C42DC13D44609B3DD9C /* Resources */,
+				CD6364C2922C6818C91DD828 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Battleship Watch App";
+			packageProductDependencies = (
+				2AC1EBC4130ADB7630001363 /* LiveViewNative */,
+				C7F801211896BE17D45978BF /* LiveViewNativeLiveForm */,
+			);
+			productName = "Battleship Watch App";
+			productReference = A0FE8FA0A735BFF25CBE24BE /* Battleship Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA7969FB2B71B6023FD8D4BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 76141F848597A1A36922ED5A /* Build configuration list for PBXProject "Battleship" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 870B6D132EC93CF7F54F4D22;
+			packageReferences = (
+				96E1C4EF7C552C793A0BEF8E /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */,
+				64F8322E87FCC77C85349FCA /* XCRemoteSwiftPackageReference "liveview-native-live-form" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C488D6DEE0BB5494B60C966 /* Battleship */,
+				F73E88DA5CCE529068173D90 /* Battleship Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0576AE51D0041C1E286CD715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33850E7613FAC5C0511C1069 /* Assets.xcassets in Resources */,
+				CF2971296784FFD14686AA7C /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E9B7C42DC13D44609B3DD9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3F2DCA8FB371D57C874237 /* Assets.xcassets in Resources */,
+				B9AAFF78CCB906EDC3197004 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1637121058B6136C781B3DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DE49CCF8C5F54E4B74D483 /* Battleship.swift in Sources */,
+				3FE550E236848B91AECF9B53 /* ConnectingView.swift in Sources */,
+				1D9C2A5D071BFBA71EE0B4FB /* ContentView.swift in Sources */,
+				E6FBE6FE3E314F3487A88F47 /* DisconnectedView.swift in Sources */,
+				A5935D774F786B2835A8E651 /* ErrorView.swift in Sources */,
+				26D8B217C80A5B1DE0D14075 /* ReconnectingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34796DBCD5B20A161D516C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05559C44D1E4DBC6F857704 /* Battleship.swift in Sources */,
+				E046C1FD6CA4CF77F14EB656 /* ConnectingView.swift in Sources */,
+				F30F16A1A80A2EA51BF16F59 /* ContentView.swift in Sources */,
+				D1000869673D8A8E6A05E748 /* DisconnectedView.swift in Sources */,
+				A11911C03DCA08399B6D14FA /* ErrorView.swift in Sources */,
+				6E2767F1000EC1EAC5DF4FF7 /* ReconnectingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		29E0DA95D87CE56C0D6F1835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Battleship.watchkit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		4315D51187EE8B4B454156E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Battleship;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvos appletvsimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Release;
+		};
+		60997C3B8C824527B5EE7527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Battleship.watchkit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		837C0E77BB4B414FCD3D4C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Battleship;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.Battleship;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		98411F05D96D18EC502A565D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Battleship;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.Battleship;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		DD504BECCCFEAB00EFC87A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Battleship;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvos appletvsimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76141F848597A1A36922ED5A /* Build configuration list for PBXProject "Battleship" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837C0E77BB4B414FCD3D4C6D /* Debug */,
+				98411F05D96D18EC502A565D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8F9940113F27CC848219AF21 /* Build configuration list for PBXNativeTarget "Battleship Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60997C3B8C824527B5EE7527 /* Debug */,
+				29E0DA95D87CE56C0D6F1835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CB3CED499F31CE2619A529F9 /* Build configuration list for PBXNativeTarget "Battleship" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD504BECCCFEAB00EFC87A27 /* Debug */,
+				4315D51187EE8B4B454156E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		64F8322E87FCC77C85349FCA /* XCRemoteSwiftPackageReference "liveview-native-live-form" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liveview-native/liveview-native-live-form";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = "0.4.0-rc.0";
+			};
+		};
+		96E1C4EF7C552C793A0BEF8E /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liveview-native/liveview-client-swiftui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = "0.4.0-rc.0";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		28F4C9D25A3435E9B6C06364 /* LiveViewNativeLiveForm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64F8322E87FCC77C85349FCA /* XCRemoteSwiftPackageReference "liveview-native-live-form" */;
+			productName = LiveViewNativeLiveForm;
+		};
+		2AC1EBC4130ADB7630001363 /* LiveViewNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96E1C4EF7C552C793A0BEF8E /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
+			productName = LiveViewNative;
+		};
+		C7F801211896BE17D45978BF /* LiveViewNativeLiveForm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64F8322E87FCC77C85349FCA /* XCRemoteSwiftPackageReference "liveview-native-live-form" */;
+			productName = LiveViewNativeLiveForm;
+		};
+		EFE08E1E2A05752FDD9A73FF /* LiveViewNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96E1C4EF7C552C793A0BEF8E /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
+			productName = LiveViewNative;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BA7969FB2B71B6023FD8D4BA /* Project object */;
+}
