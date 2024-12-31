@@ -11,6 +11,8 @@ defmodule Battleship.Application do
       BattleshipWeb.Telemetry,
       {DNSCluster, query: Application.get_env(:battleship, :dns_cluster_query) || :ignore},
       {Phoenix.PubSub, name: Battleship.PubSub},
+      Battleship.Room,
+      Battleship.Presence,
       # Start the Finch HTTP client for sending emails
       {Finch, name: Battleship.Finch},
       # Start a worker by calling: Battleship.Worker.start_link(arg)
